@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title> mhw1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="search.js" defer="true"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8"> 
+    <!--Roboto Mono-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap" rel="stylesheet">
+    <!--Anton-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!--Farsan-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+    <!--Source Code Pro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
+    <!--Stardos Stencil-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap" rel="stylesheet">
+    <!--Love Ya Like A Sister-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id = "navbar">
+        <a href="index.html">Home</a>
+        <a href="search.html">Search</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <header id = "header">
+        <div id= "overlay">
+            <h1 id= "header-title">Car Rent
+            </h5>
+        </div>
+        
+    </header>
+
+    <div id = "status">
+        <img src = "icona.png">
+        <p id = "status-owner">Matteo Secondo</h5>
+        <p id = "status-phrase">Ultimo aggiornamento: di recente</p>  
+    </div>
+
+    <form name ='search_content' id='search_content' class="form">
+        <div class="wrap">
+            <h1>Ricerca tra i nostri modelli</h1>
+            <p>Qui puoi effettuare una ricerca, scegliendo il parametro (solo uno) a cui si è interessati: </p>
+
+            <div>
+                <label>Tipo</label>
+                <select name = 'tipo' id='type' class = "blank">
+                    <option value=''></option>
+                    <option value='all'>SELEZIONA TUTTI</option>
+                </select>
+            </div>
+    
+            <div>
+                <label>Marca</label>
+                <select name = 'marca' id='make' class = "blank">
+                    <option value=''></option>
+                    <option value='all'>SELEZIONA TUTTI</option>
+                </select>
+            </div>
+    
+            <div>
+                <label>Anno</label>
+                <select name = 'anno' id='year' class = "blank">
+                    <option value=''></option>
+                    <option value='all'>SELEZIONA TUTTI</option>
+                </select>
+            </div>
+
+            <button class="submit" type='button'>Esegui un'altra ricerca</button>
+        </div>
+    </form>
+        
+    <section id="results" class="form">
+    </section>
+
+    <footer id="footer">
+        <div id = "footer-box">
+            <div id = "footer-left">
+                    <p>Nome: Matteo</p>
+                    <p>Cogome: Secondo</p>
+                    <p>Matricola: 1000017123</p>
+            </div>
+        
+            <div id = "footer-right">
+                    <address>Indirizzo: Via S. Sofia 64, 95125 Catania CT</address>
+                    <p>Github: MatteoSecondo</p>
+                </ul>
+            </div>
+        </div>
+        
+        <p id="footer-end">Programmed by Matteo Secondo</p>
+    </footer>
+  
+  </body>
+
+
+</html>
