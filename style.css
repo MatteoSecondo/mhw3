@@ -193,24 +193,20 @@ body{
     margin: 20px 40px;
 }
 
-.form div{
+.form div, .results div {
     margin-bottom: 20px;
 }
 
-.form label{
+.form label, .results label{
     margin-right: 5px;
 }
 
-.form p{
+.form p, .results p{
     margin: 0 0 20px;
 }
 
-.form h1{
+.form h1, .results h1{
     margin: 20px 0;
-}
-
-.form p{
-    margin-bottom: 20px;
 }
 
 .submit {
@@ -242,21 +238,28 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 50%;
+    width: 300px;
 }
 
-#results{
+.result img{
+    width: 300px;
+    height: 300px;
+}
+
+.result p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.results{
     border: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: left;
+    margin: 20px 40px;
 }
 
-#results p{
+.results p{
     margin: 0;
-}
-
-#access{
-    text-align: center;
-    margin-bottom: 20px;
 }

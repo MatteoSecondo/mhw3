@@ -1,4 +1,4 @@
-//Car Data api
+//https://rapidapi.com/principalapis/api/car-data
 
 function onJson(json)
 {
@@ -73,7 +73,7 @@ function filter(event)
   event.preventDefault()
   
   const option_selected = event.target;
-  const results = document.querySelector('#results');
+  const results = document.querySelector('#block');
 
   for (car of json_data)
   { 
